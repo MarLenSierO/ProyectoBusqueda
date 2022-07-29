@@ -1,0 +1,127 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: rgb(183, 23, 66);
+align-self: auto;
+text-align: center;
+font-family: Geneva, Tahoma, sans-serif;
+font-size:large;
+color:rgb(146, 203, 88)
+}
+#bienvenida{
+    margin-top: 30px;
+    font-family: cursive;
+    color:rgb(247, 241, 237);
+    font-size: 80PX;
+}
+#bienvenida:hover{
+    color: rgb(47, 125, 154);
+    border-radius: 40px;
+    text-shadow: 10px 18px 6px  rgb(209, 87, 87) ;
+
+}
+.busqueda {
+    margin-top: 30px;
+    justify-content: space-around;
+    font-size: 2.5rem;
+    padding: 20px 20px;
+}
+
+#buscador{
+  width: 80%;
+  padding: 15px 15px;
+  border:2.5px solid orchid;
+  border-radius: 29px;
+  text-align: center;
+  color: rgb(78, 8, 4);
+  background-color: burlywood;
+margin-bottom: 5%;
+margin-left: 10%;
+margin-right: 10%;
+}
+#buscador:hover{
+  box-shadow: 15px 15px rgba(15, 1, 35, 0.837);
+  background-color: rgba(166, 200, 79, 0.956);
+}
+button{
+  border: 3.5px solid #48bd00;
+  padding: 8px 15px;
+  font-size: 20px;
+  border-radius: 15px;
+  background-color: #eef52e;
+  color: #275980;
+}
+button:hover{
+  border: 2.5px solid #1300bd;
+  background-color: rgb(25, 166, 166);
+  color: #c6eb88;
+
+}
+#sort{
+  border: 2.5px solid #aa82c7;
+  padding: 8px 15px;
+  font-size: 20px;
+  border-radius: 15px;
+  background-color: #eef52e;
+  color: #275980;
+}
+#sort:hover{
+  border: 2.5px solid #6b00bd;
+  background-color: rgb(25, 166, 166);
+  color: #c6eb88;
+}
+.tpersonaje {
+    color: rgb(17, 167, 200);
+    padding: 10px;
+    margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 15px;
+  }
+
+  /* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+.column p {
+  display:inline-flex;
+  border-radius: 15%;
+  }
+.column p img{
+display:inline-flex;
+border-radius: 15%;
+padding: 10px;}
+
+  /* Remove extra left and right margins, due to padding */
+.row {margin: 10px 0 -5px 0;}
+
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+  /* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    }
+}
+
+  /* Style the counter cards */
+.card {
+    box-shadow: 15px 12px 10px 15px rgba(150, 51, 208, 0.819);
+    padding:8% 8% ;
+    text-align: center;
+    background-color: #07083f;
+    border-radius: 20%;
+    
+}
